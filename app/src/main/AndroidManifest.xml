@@ -5,9 +5,9 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name">
         <activity
             android:name=".ContactsActivity"
             android:label="@string/title_activity_contacts"
@@ -21,6 +21,15 @@
         <activity
             android:name=".Contacts_2item"
             android:label="@string/title_activity_contacts_2item"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Contacts_SortingActivity" >
+            android:label="@string/title_activity_contacts_sorting"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -2,4 +2,5 @@
     <string name="app_name">Listview</string>
     <string name="title_activity_contacts">ContactsActivity</string>
     <string name="title_activity_contacts_2item">Contacts_2item</string>
+    <string name="title_activity_contacts_sorting">ListView Sorting</string>
 </resources>

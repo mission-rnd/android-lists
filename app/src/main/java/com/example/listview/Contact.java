@@ -3,7 +3,7 @@ package com.example.listview;
 /**
  * Created by KH1731 on 04-11-2015.
  */
-public class Contact {
+public class Contact implements Comparable<Contact> {
 
     public String FirstName;
     public String LastName;
@@ -24,6 +24,8 @@ public class Contact {
         return this.FullName;
 
     };
+
+    //Put your code here
 };
 
 
